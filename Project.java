@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class Project {
     Scanner sc=new Scanner(System.in);
     private static final String DB_URL="jdbc:mysql://localhost:3306/Inventary";
-    private static final String USER="root";
-    private static final String PASS="root";
+    private static final String USER="User-name";
+    private static final String PASS="*****";
     Connection conn;
     public Project() throws Exception {
         Class.forName("com.mysql.cj.jdbc.Driver");
@@ -183,3 +183,4 @@ public class Project {
         obj.start();
     }
 }
+
